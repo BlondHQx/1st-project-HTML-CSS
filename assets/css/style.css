@@ -1,0 +1,76 @@
+@font-face {
+    font-family: neue-haas-unica;
+    src: url("../font/NeueHaasUnica-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+    background-color: #111927;
+    background-image: url(../img/backgroundimg.svg);
+    font-family: neue-haas-unica, sans-serif;
+    color: #a3b0cc;
+}
+
+header {
+    background-color: #111927;
+    border-bottom: solid 2px;
+    border-color: #51ff00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 90px;
+}
+
+header .hlog .login {
+    color: #111927;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    background: #51ff00;
+    border: 5px;
+    box-shadow: 3px 3px 4px 2px #204d0d;
+    text-decoration: none;
+}
+
+header nav .navbar {
+    display: flex;
+}
+
+header nav .navbar li {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 60px;
+}
+
+header nav .navbar li a {
+    text-decoration: none;
+    color: #a3b0cc;
+}
+
+header nav .navbar li .blueteam {
+    text-decoration: none;
+    color: #4f7b93;
+}
+
+header nav .navbar li .redteam {
+    text-decoration: none;
+    color: #fa0000;
+}
+
+header nav .navbar li .greenteam {
+    text-decoration: none;
+    color: #51ff00;
+}
