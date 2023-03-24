@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive700px.css">
+    <link rel="shortcut icon" href="./assets/img/kalilogo.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/LogButton.css">
+    <title>Pentaster</title>
+</head>
+
+<body>
+    <header> <!--START HEADER OF PAGE (NAV)-->
+        <div class="title">
+            <img src="./assets/img/greenkalinew.png">
+            <h1>Pentaster</h1>
+        </div>
+        <nav class="headnav">
+            <ul class="navbar">
+                <li class="listnone"><a class="greenteam" href="./index.html">Accueil</a></li>
+                <li class="listnone"><a class="redteam" href="./page/redteam.html">Red Team</a></li>
+                <li class="listnone"><a class="blueteam" href="./page/blueteam.html">Blue Team</a></li>
+            </ul>
+        </nav>
+        <div class="hlog">
+            <a class="login" href="#demo-modal">Connexion</a>
+        </div>
+    </header> <!--END HEADER OF PAGE (NAV)-->
+
+    <div id="demo-modal" class="modal"> <!--START LOG BUTTON -->
+
+        <div class="modal__content">
+            <h2>Connexion</h2>
+            <form action="#">
+
+                <section class="mail">
+                    <h2 class="modal_case">Adresse Mail</h2>
+                    <article><input class="mail_case" id="text_b" type="text" name="text"></article>
+                </section>
+                <section class="pwd">
+                    <h2 class="modal_case">Mot de passe</h2>
+                    <article><input class="pwd_case" id="text" type="password" name="password"></article>
+                </section>
+                <div>
+                    <input class="continue" type="submit" value="CONTINUE">
+                </div>
+                <div class="modal__footer">
+                    Fait Avec <i class="fa fa-heart">Css</i>, by <i class="fa fa-heart">Blond</i> 2023.
+                </div>
+            </form>
+
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div> <!--END LOG BUTTON -->
+    <main>
+        <div class="textmid"> <!--START TOP OF PAGE/BLOCK-->
+            <section id="midtxt"> <!--MAIN TITLE-->
+                <h2>Qu'est ce que le Pentasting</h2>
+                <p class="titletop">Le pentesting (abréviation de "penetration testing" en anglais) est également appelé
+                    test d'intrusion ou test de pénétration. C'est une technique qui consiste à analyser une cible en se
+                    comportant comme un pirate informatique. <br><strong class="strong">Voici les differents types de
+                        pentest :</strong>
+                </p>
+                <div> <!--TITLE X4-->
+                    <article class="shadow">
+                        <h3><img class="imgmid" src="./assets/img/Resaux.png"></h3>
+                        <p class="title">Pentest Résaux</p>
+                        <p>Le pentesting sur les services réseau consiste à effectuer une étude de filtrage appelée
+                            Stafeful afin d'analyser la configuration du pare-feu. Son but est de détecter les
+                            vulnérabilités des services réseau qui fragilisent la sécurité du système.</p>
+                        <p class="learnmore"><a href="#penreseaux">En savoir plus...</a></p>
+                    </article>
+                    <article class="shadow">
+                        <h3><img class="imgmid" src="./assets/img/Phone.png"></h3>
+                        <p class="title">Pentest d'applications web</p>
+                        <p class="middle middle_b">Quant au test d'applications web, cela permet de savoir si
+                            une page d'un site
+                            web est attaquée et d'en identifier la cause, le cas échéant. </p>
+                        <p class="learnmore"><a href="#penweb">En savoir plus...</a></p>
+                    </article>
+                    <article class="shadow">
+                        <h3><img class="imgmid" src="./assets/img/ingenierSocial.png"></h3>
+                        <p class="title">Pentest d'ingénierie sociale</p>
+                        <p class="middle" class="middle_b">En ce qui concerne le pentesting d'ingénierie sociale, c'est
+                            une analyse qui
+                            consiste à déterminer tous les points d'accès au système et à les renforcer contre les
+                            intrusions.</p>
+                        <p class="learnmore"><a href="#pensocial">En savoir plus...</a></p>
+                    </article>
+                    <article class="shadow">
+                        <h3><img class="imgmid" src="./assets/img/Internet-icon.svg.png"></h3>
+                        <p class="title">Pentest de réseaux sans fil</p>
+                        <p class="middle">Le test de pénétration de réseaux sans fil permet d'analyser en profondeur ces
+                            derniers. Cette analyse consiste à étudier les protocoles réseau et leurs points d'accès
+                            ainsi que les autorisations pour la gestion des actifs.</p>
+                        <p class="learnmore"><a href="#pensansfil">En savoir plus...</a></p>
+                    </article>
+                </div>
+            </section>
+        </div> <!--END OF TOP OF PAGE/BLOCK-->
+
+        <div class="pictures"> <!--START OF PICTURES BLOC-->
+            <section class="imagemid">
+                <h2><img class="big" src="./assets/img/nmap.png"></h2>
+            </section>
+            <section class="imagemid">
+                <h2><img class="big" src="./assets/img/metasploit.png"></h2>
+            </section>
+            <section class="imagemid">
+                <h2><img src="./assets/img/wiresharkvuln.png"></h2>
+            </section>
+            <section class="imagemid">
+                <h2><img src="./assets/img/johntheripper.png"></h2>
+            </section>
+        </div> <!--END OF PICTURES BLOC-->
+
+        <div class="categories"> <!--START CATEGORIES BLOC-->
+            <section>
+                <h3 id="penreseaux">Pentest Résaux :</h3>
+                <article>
+                    <h4>(Objectifs du test d'intrusion)/</h4>
+                    <p class="firsttxt">Le test d'intrusion réseau et infrastructure a pour but d'identifier
+                        l'ensemble des
+                        problèmes de
+                        sécurité et d'évaluer la résistance de l'infrastructure et des services exposés sur
+                        Internet face à
+                        des attaques opportunistes ou ciblées. Quel que soit la taille de votre périmètre, nous
+                        identifions et
+                        analysons en détail
+                        l'ensemble des
+                        points faibles permettant de porter atteinte à la confidentialité.<br> Une attention
+                        particulière est
+                        portée aux vulnérabilités :</p>
+                    <div class="thirdtxt">
+                        <ul>
+                            <li>Permettant de récup des données métiers sensibles, privées ou à caractère personnel
+                                accessibles via les services exposés;</li>
+                            <li>Permettant de prendre le contrôle complet d'un des serveurs exposés et de rebondir vers
+                                le réseau interne de l'entreprise ;</li>
+                            <li>Permettant d'élever ses privilèges sur le service ou le système exposé;</li>
+                            <li>Susceptibles d'avoir un impact financier non négligeable ou permettant de détourner des
+                                fonds ;</li>
+                            <li>Susceptibles d'avoir un impact négatif sur l'image de marge du groupe.</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                <h3 id="penweb">Pentest sur les application web :</h3>
+                <article>
+                    <h4>(Objectifs du test d'intrusion)/</h4>
+                    <p class="firsttxt">Le test d'intrusion d'application web a pour but d'identifier l'ensemble
+                        des problèmes de sécurité et d'évaluer la résistance de l'application face à des
+                        attaques avancées, pertinentes et réalistes
+                        Nous identifions et analysons en détail l'ensemble des points faibles permettant de
+                        porter atteinte à la confidentialité, l'intégrité ou la disponibilité des données de
+                        l'application auditée. Une attention particulière est portée aux vulnérabilités :</p>
+                    <div class="thirdtxt">
+                        <ul>
+                            <li>Permettant de récupérer ou d'altérer des données métiers sensibles représentant le coeur
+                                de l'application ;</li>
+                            <li>Permettant de prendre le contrôle complet d'un des serveurs exposé et de rebondir vers
+                                le réseau interne ;</li>
+                            <li>Permettant de récupérer ou d'altérer les données privées ou à caractère personnel des
+                                utilisateurs ;</li>
+                            <li>Permettant d'élever ses privilèges sur l'application ou le système audité ;</li>
+                            <li>Susceptibles d'avoir un impact financier non négligeable ou permettant de détourner des
+                                fonds ;</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <div class="categories">
+            <section>
+                <h3 id="pensocial">Pentest d'ingénierie sociale :</h3>
+                <article>
+                    <h4>(Objectifs du test d'intrusion)/</h4>
+                    <p class="firsttxt">Beaucoup d'organisations concentrent leurs moyens de sécurité sur leur périmètre
+                        externe, considérant que les tentatives d'intrusion proviennent généralement de l'extérieur.
+                        Qu'en est-il de la sécurité interne, notamment du niveau d'exposition et de protection des
+                        données métier critiques du groupe une fois les portes de l'entreprise franchie ?
+
+                        Le test d'intrusion interne permet de répondre aux questions suivantes :</p>
+                    <div class="thirdtxt">
+                        <ul>
+                            <li>Quel est le niveau de protection du réseau et des données métiers internes face à un
+                                stagiaire ou un employé malveillant ?</li>
+                            <li>Jusqu'où peut aller un attaquant externe ayant compromis le poste de travail d'un
+                                collaborateur interne ou un serveur exposé sur Internet ?</li>
+                            <li>Les administrateurs respectent-ils en interne les meilleures pratiques en termes de
+                                sécurité permettant de limiter les compromissions et la fuite des données stratégiques
+                                de l'entreprise ?</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                <h3 id="penfil">Pentest de réseaux sans fil :</h3>
+                <article>
+                    <h4>(Objectifs du test d'intrusion)/</h4>
+                    <p class="firsttxt">Les réseaux sans fils sont aujourd'hui largement déployés dans les entreprise
+                        afin d'offrir un un accès réseau aux périphérques mobiles utilisés par les employés ou pour
+                        offrir un accès internet aux visteurs externes.
+
+                        Ces points d'accès constituent également une porte d'entrée supplémentaire au attaquants
+                        souhaitant accéder aux données métiers présentes sur le réseau Interne.
+                        Le test d'intrusion Wifi a pour but d'identifier l'ensemble des problèmes de
+                        sécurité et d'évaluer la résistance de l'infrastructure sans fil face à des attaques externes
+                        ciblées. Faire auditer l'infrastructure sans fil de son entreprise permet de répondre aux
+                        questions suivantes :</p>
+                    <div class="thirdtxt">
+                        <ul>
+                            <li>Quel est le niveau de protection mis en place sur les points d'accès officiels afin
+                                d'empêcher un attaquant externe d'accéder au réseau interne ?</li>
+                            <li>Existe-t-il en interne des points d'accès non officiels et mal protégés permettant de
+                                rebondir vers le réseau interne depuis l'extérieur?</li>
+                            <li>Le cloisonnement mis en place entre les accès sans fil invité (guest) et le réseau
+                                interne est t'il efficace ?</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </div> <!--END OF CATEGORIES BLOC-->
+    </main>
+    <footer>
+        <section id="footerpage">
+            <article>
+                <h3><img src="./assets/img/logoRI7.png"></h3>
+                <div class="foota">
+                    <p><img src="./assets/img/logoFB.png"></p>
+                    <p><img src="./assets/img/logoYT.png"></p>
+                    <p><img src="./assets/img/logoLK.png"></p>
+                    <p><img src="./assets/img/logoInsta.png"></p>
+                </div>
+            </article>
+            <article>
+                <h3></h3>
+                <div class="footb">
+                    <p>Née d'une profonde volonté de proposer une alternative aux école d'ingénieur informatique
+                        'traditionnelle', le projet d'école Ri7 a vu le jour a Aubagne en 2020 avec pour objectif
+                        principal de facilité l'insersion ou la reconversion professionnelle de nos etudiants en
+                        leur proposant une formation opérationnele et certifiante dans le métier d'avenir qu'est le
+                        développement logiciel.</p>
+                    <p><a class="createacc" href="https://app.ri7.fr/login">INSCRIPTION 2023</a></p>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>
