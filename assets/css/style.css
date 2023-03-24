@@ -1,0 +1,188 @@
+@font-face {
+    font-family: neue-haas-unica;
+    src: url("../font/NeueHaasUnica-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+    background-color: #111927;
+    background-image: url(../img/backgroundimg.svg);
+    font-family: neue-haas-unica, sans-serif;
+    color: #a3b0cc;
+}
+
+header {
+    background-color: #111927;
+    border-bottom: solid 2px;
+    border-color: #51ff00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 800;
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 5vw;
+}
+
+main div .shadow .imgmid {
+    width: 70px;
+}
+
+header .hlog .login {
+    color: #111927;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    background: #51ff00;
+    border: 5px;
+    border-width: 500px;
+    box-shadow: 3px 3px 4px 2px #4af800;
+    text-decoration: none;
+}
+
+header .headnav .navbar {
+    display: flex;
+}
+
+header .headnav .navbar .listnone {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 60px;
+}
+
+header .headnav .navbar .listnone a {
+    text-decoration: none;
+    color: #a3b0cc;
+}
+
+header nav .navbar .listnone .blueteam {
+    text-decoration: none;
+    color: #4f7b93;
+}
+
+header nav .navbar .listnone .redteam {
+    text-decoration: none;
+    color: #fa0000;
+}
+
+header nav .navbar .listnone .greenteam {
+    text-decoration: none;
+    color: #51ff00;
+}
+
+main .textmid {
+    color: white;
+}
+
+main #midtxt {
+    text-align: center;
+}
+
+main #midtxt h2 {
+    font-weight: 800;
+    font-size: 200%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main #midtxt .titletop {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+main #midtxt p {
+    line-height: 40px;
+}
+
+main #midtxt div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main #midtxt div article {
+    padding: 40px;
+}
+
+main #midtxt .shadow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    border-style: solid;
+    border-color: #111927;
+    border-width: 1px;
+    background-color: rgba(94, 255, 0, 0.308);
+    width: 25%;
+    height: 50vh;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.learnmore {
+    padding: 0%;
+    font-weight: 700;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagemid {
+    margin: auto;
+}
+
+.pictures .imagemid img {
+    width: 50%;
+}
+
+.categories {
+    display: flex;
+    padding-bottom: 5vw;
+}
+
+.categories section {
+    text-align: center;
+}
+
+.categories section h3 {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 200%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.categories article h4 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.categories article .firsttxt{
+    margin-bottom: 20px;
+}
+
+.categories article ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
